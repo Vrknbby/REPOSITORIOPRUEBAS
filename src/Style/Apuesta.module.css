@@ -1,0 +1,123 @@
+.container{
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 120px;
+}
+.card {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    color: #ffffff;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(197, 196, 196);
+  }
+  
+  .label {
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  
+  .input {
+    background-color: #ffffff;
+    border: 1px solid #444;
+    color: #000000;
+    
+  }
+
+  .fetch {
+    background-color: #ffffff;
+    border: 1px solid #444;
+    color: #000000;
+    
+  }
+  
+  .boton {
+    background-color: #ff0000;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 180px;
+    font-size: 20px;
+
+  }
+  
+  .boton:hover {
+    background-color: #ff3333;
+  }
+
+  .message {
+    color: rgb(0, 0, 0);
+    font-size: 1.125em;
+    margin-top: -46px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #55555588;
+  }
+  
+  .imagen{
+    margin-left: 113px;
+    width: 448.5px;           
+    border-top-left-radius: 15px;    
+    border-bottom-left-radius: 15px;
+    border-right: 10px;
+
+   
+    background: rgba(0, 0, 0, 0.6); 
+    filter: brightness(70%); 
+    transition: filter 0.3s ease-in-out; 
+    
+  }
+  .imagen:hover {
+    filter: brightness(100%); /* Opción de efecto al pasar el mouse */
+}
+
+.teamName {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.vsText {
+  margin: 0 8px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  pointer-events: none; /* Ensure that clicks pass through to the underlying elements */
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: -170px;
+  margin-right: 450px;
+}
+.escudos{
+  width: 230px;            /* Ancho de la imagen */
+  height: 150px;            /* Ajuste automático de la altura */
+  
+    
+}
+  
